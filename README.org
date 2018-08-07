@@ -1,0 +1,43 @@
+#+STARTUP: showall
+
+* webapp-template
+
+A template for a web application written entirely in Clojure and
+ClojureScript.
+
+** Usage
+
+To run the server from the REPL:
+
+#+BEGIN_SRC clojure
+;; TODO: Example forthcoming.
+#+END_SRC
+
+** Details
+
+The goal of this template is to bring together the best and most idiomatic
+practices (as of 2018) for creating a Clojure and Clojurescript web
+application.  Necessarily, it makes a few judgment calls where community
+consensus doesn't exist.
+
+This is still WIP, but some things I know I do want here:
+
+- Single-page app.
+- A sample front-end with just a few features past Hello World.  This will be
+  based on a somewhat modified set of the practices described in parts of the
+  book [[https://pragprog.com/book/dswdcloj2/web-development-with-clojure-second-edition][Web Development with Clojure]].
+- [[https://github.com/stuartsierra/component][Component]] will wrap all state management and service integration.
+- The [[http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded][reloaded workflow]], integrated with Component.
+- [[https://github.com/juxt/bidi][bidi]] will handle URI routing.
+- [[http://aleph.io/][Aleph]] for the integrated webserver.  Might just have this just for running in
+  development, and having the application run in a servlet container by
+  default.
+- Full stack unit and integration tests.  Possible generative tests too.
+- Probably other stuff, like clojure.spec, Hiccup (for HTML templating), some
+  documentation generation solution, etc.
+
+** License
+
+Copyright © 2018
+
+Distributed under the GNU Public License Version 3.
