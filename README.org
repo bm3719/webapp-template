@@ -16,7 +16,7 @@ To run the server from the REPL:
 ** Details
 
 The goal of this template is to bring together the best and most idiomatic
-practices (as of 2018) for creating a Clojure and Clojurescript web
+practices (as of 2018) for creating a Clojure and ClojureScript web
 application.  Necessarily, it makes a few judgment calls where community
 consensus doesn't exist.
 
@@ -34,7 +34,7 @@ This is still WIP, but some things I know I do want here:
   default.
 - Full stack unit and integration tests.  Possible generative tests too.
 - Probably other stuff, like clojure.spec, Hiccup (for HTML templating), some
-  documentation generation solution, etc.
+  documentation generation solution, edn, etc.
 
 ** License
 
