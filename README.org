@@ -25,15 +25,17 @@ This is still WIP, but some things I know I do want here:
 - Single-page app.
 - A sample front-end with just a few features past Hello World.  This will be
   based on a somewhat modified set of the practices described in parts of the
-  book [[https://pragprog.com/book/dswdcloj2/web-development-with-clojure-second-edition][Web Development with Clojure]].
+  book [[https://pragprog.com/book/dswdcloj2/web-development-with-clojure-second-edition][Web Development with Clojure]], hopefully minus the web framework stuff.
 - [[https://github.com/stuartsierra/component][Component]] will wrap all state management and service integration.  May
   replace this later with [[https://github.com/tolitius/mount][mount]] or [[https://github.com/weavejester/integrant][integrant]].
-- The [[http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded][reloaded workflow]], integrated with Component.
+- The [[http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded][reloaded workflow]], integrated with Component.  This uses a dev release of
+  [[https://github.com/clojure/tools.namespace][clojure.tools.namespace]], which supports ClojureScript.
 - [[https://github.com/juxt/bidi][bidi]] will handle URI routing.
 - [[http://aleph.io/][Aleph]] for the integrated webserver.  Might just have this just for running in
   development, and having the application run in a servlet container by
   default.
 - Full stack unit and integration tests.  Possible generative tests too.
+- An example database, in SQLite, read from with [[https://github.com/korma/Korma][Korma]].
 - Probably other stuff, like clojure.spec, Hiccup (for HTML templating), some
   documentation generation solution, edn, etc.
 
