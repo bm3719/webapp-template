@@ -4,7 +4,9 @@
   :license {:name "GNU General Public License Version 3"
             :url "https://www.gnu.org/licenses/gpl-3.0.en.html"}
   :dependencies [[org.clojure/clojure "1.9.0"]
-                 [com.stuartsierra/component "0.3.2"]]
+                 [com.stuartsierra/component "0.3.2"]
+                 [korma "0.4.3"]
+                 [org.xerial/sqlite-jdbc "3.23.1"]]
   :repl-options {:init-ns user}
   :global-vars {*print-length* 100}
   :deploy-branches ["master"]
